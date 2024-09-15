@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#007EFF] h-[100vh]">
+      <div className="">
         <InputTodo/>
 
         <TodoList/>
