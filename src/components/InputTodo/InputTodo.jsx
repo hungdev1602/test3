@@ -16,7 +16,7 @@ const InputTodo = () => {
 
   return (
     <>
-      <div className="py-[30px] w-[500px] mx-auto">
+      <div className="py-[30px] w-[400px] sm:w-[500px] mx-auto">
         <div className="mx-auto text-center text-[25px]">To Do List test 3</div>
         <form className="flex items-center gap-[20px] mt-[20px] mb-[20px]" onSubmit={handleSubmit}>
           <input 

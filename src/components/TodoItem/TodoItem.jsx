@@ -4,7 +4,7 @@ const TodoItem = ({ id, title, completed, oddHighlight, eventHighlight, updateTo
   return (
     <>
       <li 
-        className={"w-[500px] mx-auto flex justify-between py-[20px] mb-[20px] " + 
+        className={"w-[400px] sm:w-[500px] mx-auto flex justify-between py-[20px] mb-[20px] " + 
           (completed === true ? "bg-red-500 line-through " : "bg-white ") +
           (oddHighlight ? "text-purple-950 font-[900]" : eventHighlight ? "text-orange-700 font-[900]" : "")
         }
